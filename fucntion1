@@ -1,0 +1,14 @@
+#include <iostream> //handle input and output
+using namespace std;
+
+void myFunction() {
+  cout << "I just got executed!\n";
+}
+
+int main() {
+//function is called three times and executed
+  myFunction();
+  myFunction();
+  myFunction();
+  return 0;
+}
