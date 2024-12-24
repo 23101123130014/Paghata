@@ -1,0 +1,15 @@
+// we do use != operator
+#include <iostream>
+using namespace std;
+int main()
+{
+int x = 5;
+if (x != 2)
+{
+cout<<"x is not two";
+}
+else
+{
+cout<<" x is not true";
+}
+  }
