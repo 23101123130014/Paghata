@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	string name = "Jacob Godwin Mwansambe";
+	string &jacob = name;
+	cout<<name;
+	cout<<endl;
+	cout<<jacob;
+}
