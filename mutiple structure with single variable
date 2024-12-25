@@ -1,0 +1,23 @@
+//one structure multiple variables
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	struct item{
+		int id;
+		string name;
+	} structure1, structure2, structure3;
+	
+	structure1.id = 23101123130014;
+	structure1.name = "joshua  harute";
+	 structure2.name = 23101123130013;
+	 structure1.id = 23101123130012;
+	 structure3.id = 231232;
+	 structure3.name = "juma";
+	 
+	 cout<<"\n structure.id is: ";
+	 cout<<structure1.id;
+	 cout<<endl;
+	 cout<<"structurei name is: "<< structure1.name;
+}
