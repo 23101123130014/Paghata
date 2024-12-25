@@ -1,0 +1,16 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	struct {
+		int id;
+		string name;
+	} structure;
+	structure.id = 23101123130014;
+	cout<<structure.id;
+	cout<<endl;
+	
+	structure.name = "jacob godwin mwansambe\n";
+	cout<<structure.name;
+}
