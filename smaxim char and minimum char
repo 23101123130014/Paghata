@@ -1,0 +1,13 @@
+//maximum char and minimum char
+#include <iostream>
+#include <limits.h>
+using namespace std;
+int main()
+{
+	cout<<"the size of char is:\n";
+	cout<<sizeof(char);
+	cout<<endl;
+	cout<<"the min char is: ";
+	cout<<CHAR_MIN;
+	cout<<"\n the maximum char is: " << CHAR_MAX;
+}
