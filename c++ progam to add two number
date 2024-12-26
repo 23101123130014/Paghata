@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x, y, sum;
+	x = 23;
+	y = 10;
+	sum = x + y;
+	cout<<"the sum of 23 and 10 is :" <<sum;
+}
