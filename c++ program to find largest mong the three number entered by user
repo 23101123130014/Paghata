@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n1, n2, n3;
+	cout<<"\nenter the first number: ";
+	cin>>n1;
+	cout<<"\nenter the second number "; 
+	cin>>n2;
+	cout<<"\nenter the third number";
+	cin>>n3;
+	if(n1 >= n2 && n1 >= n3)
+	{
+	cout<<"\n is greater number among all the given numbers\n" <<n1;
+	}
+	if(n2 >= n1 && n2 >= n3)
+	{
+		cout<<n2 <<" is the greater number among the two numbers\n";
+	}
+	if(n3 >= n1 && n3 >= n2)
+	{
+		cout<<n3<<" is greater number among the three numbers";
+	}
+}
+c++
