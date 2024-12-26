@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int x;
+	cout<<"enter the number to be checked if it is prime or old: ";
+	cin>>x;
+	if(x % 2 == 0){
+		cout<<x<<" is even number";
+		
+	}
+	
+		else{
+			cout<<x<<" is old number";
+		}
+
+}
