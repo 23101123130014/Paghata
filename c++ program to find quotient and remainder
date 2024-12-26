@@ -1,0 +1,15 @@
+//c++ program to find quotient and remainder
+#include <iostream>
+using namespace std;
+int main()
+{
+	int quotient, divident, divisor, remainder;
+	cout<<"\n enter the dividend: ";
+	cin>>divident;
+	cout<<"\n ente the divisor ";
+	cin>>divisor;
+	quotient = divident/divisor;
+	remainder = divident % divisor;
+	cout<<"\nquotient is "<< quotient;
+	cout<<"remainder is "<<remainder;
+}
