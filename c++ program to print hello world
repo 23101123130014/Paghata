@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+	int x;
+	cout<<"\n enter the number to be printed ";
+	cin>>x;
+	cout <<"the numbert you have entered is " << x;
+}
