@@ -1,0 +1,9 @@
+//program using register class in c++ programinhg language
+#include <iostream>
+using namespace std;
+int main()
+{
+	register int x,y=20, z=30;
+	x=y+z;
+	cout<<"add = "<<x;
+}
