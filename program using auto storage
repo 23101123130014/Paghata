@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+auto int x=5;
+{
+	
+	auto int x=3;
+	{
+		
+		auto int x=1;
+		cout<<x<<endl;
+	}
+	cout<<x<<endl;
+	}	
+	
+	cout<<x<<endl;
+	
+}
