@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int j = 10;
+	int m = 2;
+	cout<<"j + m = "<<j+m;
+	cout<<"\nj - m = " <<j-m;
+	cout<<"\nj * m = " << j*m;
+	cout<<"\n j/m = " <<j/m;
+	cout<<"\nj % m = " <<j % m;
+	
+	
+}
