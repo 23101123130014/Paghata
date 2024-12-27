@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int l, w, area;
+	cout<<"enter the lenght  of the rectangle ";
+	cin>>l;
+	cout<<"\n enter the width of the rectangle ";
+	cin>>w;
+	area = l* w;
+	cout<<"\n area of the rectangle is ";
+	cout<<area;
+}
