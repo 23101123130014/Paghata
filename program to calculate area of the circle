@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	float r;
+	float pi = 3.14;
+	float area;
+	
+	cout <<" enter radious ";
+	cin>>r;
+	
+	area = pi*r;
+	cout<<"\n area of the circle is ";
+	cout<<area;
+}
