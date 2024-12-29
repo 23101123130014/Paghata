@@ -1,0 +1,101 @@
+#include <iostream>
+using namespace std;
+//function prototype
+void add();
+void sub();
+void div();
+void mutiplication();
+int main()
+{
+	int choice;
+	do{
+		cout<<"\n |----operation which can be perfomed---|";
+		cout<<"\n1. add";
+		cout<<"\n2. sub";
+		cout<<"\n3. div";
+		cout<<"\n4: mutiplication";
+		cout<<"\n5: Exit";
+		cout<<"\n||------choose the choice above--------||";
+		cin>>choice;
+			switch(choice)
+			{
+				case 1:
+					add();
+					break;
+					case 2:
+						sub();
+						break;
+						case 3:
+							div();
+							break;
+							case 4:
+							void	multiplication();
+								break;
+								case 5:
+									cout<<"exiting the program";
+								default:
+									cout<<"incorrect enter appropriate choice";
+			}
+		
+		
+	}
+	while(choice != 5);
+	return 0;
+
+}
+//function definition
+void add()
+{
+	int a;
+	int b;
+	int sum;
+	cout<<"\nenter the first number to be included in operation: ";
+	cin>>a;
+	cout<<"enter the second number: ";
+	cin>>b;
+	sum = a+b;
+	cout<<"sum is " << sum;
+}
+void sub()
+{
+	int a;
+	int b;
+	int sub;
+	cout<<"\nenter the first number to be included in operation: ";
+	cin>>a;
+	cout<<"enter the second number: ";
+	cin>>b;
+	sub = a-b;
+	cout<<"sum is " << sub;
+}
+void div()
+{
+int a;
+	int b;
+	int div;
+	cout<<"\nenter the first number to be included in operation: ";
+	cin>>a;
+	cout<<"enter the second number: ";
+	cin>>b;
+	if(b = 0 && a != 0)
+	{
+		cout<<"erro";
+	}
+	else{
+	
+	div = a/b;
+	cout<<"quotient  is " << div;
+	}
+}
+void multiplication()
+{
+int a;
+	int b;
+	int mult;
+	cout<<"\nenter the first number to be included in operation: ";
+	cin>>a;
+	cout<<"enter the second number: ";
+	cin>>b;
+	mult = a*b;
+	cout<<"product is " << mult;
+}
