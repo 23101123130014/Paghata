@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+void ones();
+int main()
+{
+	ones();
+}
+void ones()
+{
+	cout<<"the function id defined at the end ";
+}
